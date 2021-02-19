@@ -1,0 +1,15 @@
+server:
+  port: 7800
+logging:
+  level:
+    io:
+      netty:
+        util:
+          internal:
+            PlatformDependent: debug
+    reactor:
+      netty: debug
+    org:
+      springframework:
+        web:
+          reactive: debug
